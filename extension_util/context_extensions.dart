@@ -124,3 +124,46 @@ extension ContextExtensions on BuildContext {
   /// Hide SnackBar
   void hideSnackBar() => ScaffoldMessenger.of(this).hideCurrentSnackBar();
 }
+
+
+///////How to use////////
+
+//Context context;
+//print(context.width());
+//print(context.height());
+//print(context.pixelRatio());
+//print(context.platformBrightness());
+//print(context.statusBarHeight);
+//print(context.navigationBarHeight);
+//print(context.theme);
+//print(context.textTheme);
+//print(context.defaultTextStyle);
+//print(context.formState);
+//print(context.scaffoldState);
+//print(context.overlayState);
+//print(context.primaryColor);
+//print(context.accentColor);
+//print(context.scaffoldBackgroundColor);
+//print(context.cardColor);
+//print(context.dividerColor);
+//print(context.iconColor);
+//print(context.requestFocus);
+//print(context.unFocus);
+//print(context.orientation);
+//print(context.isLandscape);
+//print(context.isPortrait);
+//print(context.canPop);
+//print(context.pop);
+//print(context.platform);
+//print(context.isAndroid);
+//print(context.isIOS);
+//print(context.isMacOS);
+//print(context.isWindows);
+//print(context.isFuchsia);
+//print(context.isLinux);
+//print(context.openDrawer);
+//print(context.closeDrawer);
+//print(context.openEndDrawer);
+//print(context.closeEndDrawer);
+//print(context.showSnackBar);
+//print(context.hideSnackBar);
