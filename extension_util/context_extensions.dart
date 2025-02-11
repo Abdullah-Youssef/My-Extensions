@@ -118,8 +118,8 @@ extension ContextExtensions on BuildContext {
   void closeEndDrawer() => Scaffold.of(this).closeEndDrawer();
 
   /// Show SnackBar
-  void showSnackBar(SnackBar snackBar) =>
-      ScaffoldMessenger.of(this).showSnackBar(snackBar);
+  void showSnackBar(Widget snackBarWidget) => ScaffoldMessenger.of(this)
+      .showSnackBar(SnackBar(content: snackBarWidget));
 
   /// Hide SnackBar
   void hideSnackBar() => ScaffoldMessenger.of(this).hideCurrentSnackBar();
